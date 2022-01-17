@@ -1,6 +1,7 @@
 # Amazon Vine Analysis
 
-The following report shows an Analysis for big data module and represent the interaction between Google colab, AWS and Postgres. 
+The following report shows an Analysis for big data module and represent the interaction between Google colab, AWS and Postgres.
+
    ![](https://github.com/JulioAQuintana/Amazon_Vine_Analysis/blob/main/Resources/logo.png)
 
 ## Project Overview
