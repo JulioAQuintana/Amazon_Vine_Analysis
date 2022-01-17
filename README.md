@@ -1,7 +1,7 @@
 # Amazon Vine Analysis
 
 The following report shows an Analysis for big data module and represent the interaction between Google colab, AWS and Postgres. 
-   ![](https://github.com/JulioAQuintana/MechaCar_Statistical_Analysis/blob/main/Resources/Images/LinearRegresion_lm.png)
+   ![](https://github.com/JulioAQuintana/Amazon_Vine_Analysis/blob/main/Resources/logo.png)
 
 ## Project Overview
 
@@ -34,16 +34,16 @@ Dataset has more than 3 million reviews stored, In order to focus on reviews tha
 * Count of Total votes equal or greater than 20.
 * Percent of Helpful votes to Total Votes equal or greater than 50%.
 
-   ![](https://github.com/JulioAQuintana/MechaCar_Statistical_Analysis/blob/main/Resources/Images/LinearRegresion_lm.png)
+   ![](https://github.com/JulioAQuintana/Amazon_Vine_Analysis/blob/main/Resources/helpfullvotes.png)
    
 Using bulleted lists and images of DataFrames as support, address the following questions:
 
 1. How many Vine reviews and non-Vine reviews were there?
   Vine members made up only 2.1% (1,080) of the reviews whereas the remaining 97.9% were Non-Vine members (49,659).
-  ![](https://github.com/JulioAQuintana/MechaCar_Statistical_Analysis/blob/main/Resources/Images/LinearRegresion_lm.png)  
-  ![](https://github.com/JulioAQuintana/MechaCar_Statistical_Analysis/blob/main/Resources/Images/LinearRegresion_lm.png)  
+  ![](https://github.com/JulioAQuintana/Amazon_Vine_Analysis/blob/main/Resources/Total.png)  
+  ![](https://github.com/JulioAQuintana/Amazon_Vine_Analysis/blob/main/Resources/programpaid.png)  
 
-  ![](https://github.com/JulioAQuintana/MechaCar_Statistical_Analysis/blob/main/Resources/Images/LinearRegresion_lm.png)  
+  ![](https://github.com/JulioAQuintana/Amazon_Vine_Analysis/blob/main/Resources/programunpaid.png)  
   
 
 2. How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
@@ -59,6 +59,6 @@ Using bulleted lists and images of DataFrames as support, address the following 
 
 Due the analysis we can say that the Vine members did not show bias when rating their products considering that the number of 5-star ratings was close to 10% less than Non-Vine members (42% vs. 46.4%). due that we are assuming that Vine customers use special critical mode to perfomr their reviews. However, this point is supported by the analysis including all of the data rather than filtering it to a percentage of helpful vs. total votes as we did for this analysis. the results are represented in the next analysis: 
 
-  ![](https://github.com/JulioAQuintana/MechaCar_Statistical_Analysis/blob/main/Resources/Images/LinearRegresion_lm.png)  
+  ![](https://github.com/JulioAQuintana/Amazon_Vine_Analysis/blob/main/Resources/Vine_dfAnalysis.png)  
   
 finally, based on similar analysis using datasets from different product categories can provide us with the whole picture of whether reviews made by Vine members are bias.
